@@ -1,1 +1,39 @@
-  
+********Constructor – Key Points********************************
+
+Special method used to initialize objects.
+
+Name must match the class name.
+
+No return type, not even void.
+
+Called automatically when an object is created.
+
+Can be overloaded with different parameters.
+
+Types of Constructor:
+
+Default Constructor – No parameters, auto-provided by compiler if none defined.
+
+Parameterized Constructor – Takes arguments to initialize object.
+
+Copy Constructor – Creates a new object by copying another object.
+
+If no constructor is defined, Java provides a default constructor.
+
+Can use access modifiers: public, private, protected, default.
+
+Private constructor restricts object creation outside class.
+
+Constructor chaining – Call one constructor from another using this().
+
+Superclass constructor – Called using super() in subclass.
+
+Execution order – Parent class constructor executes before child class constructor.
+
+Cannot be static in Java.
+
+Can throw exceptions.
+
+Overloading possible, but overriding not allowed.
+
+Best used for mandatory initialization of objects.  
